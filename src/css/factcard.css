@@ -1,0 +1,291 @@
+.card {
+    position:fixed;
+    top: 34%;
+    left: 51%;
+    width:24em;
+    height:27em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-row-gap: 40px;
+    border-radius: 25px;
+    background: linear-gradient(to right, #bcbcbc 25%,#ffcd02 25%, #ffcd02 50%, #e84f47 50%, #e84f47 75%, #65c1ac 75%);
+}
+
+.displayIns {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.home_header {
+    background: lavenderblush;
+    height: 30px;
+    font-style: italic;
+}
+.mainHeading {
+ background: lavenderblush;
+    font-style: italic;
+    text-align: center;
+    border: 2px solid beige;
+}
+
+.home_button {
+    background-color: ivory;
+    border: 2px solid lavenderblush;
+    font-size: x-large;
+    border-radius: 30px;
+    margin-bottom: -8px;
+    width:112px;
+    height:80px;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+.home_button_overlay {
+    text-decoration: none;
+    color: black;
+    background-color: ivory;
+    border: 2px solid lavenderblush;
+    font-size: x-large;
+    border-radius: 30px;
+    margin-bottom: -8px;
+    width:112px;
+    height:80px;
+}
+.some_header {
+    position:fixed;
+    top: 97%;
+    left: 51%;
+    width:24em;
+    height:27em;
+    margin-top: -41em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em;
+}
+.card_home {
+    justify-items: center;
+    position:fixed;
+    top: 34%;
+    left: 51%;
+    width:24em;
+    height:27em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-row-gap: 40px;
+    border-radius: 25px;
+    background: linear-gradient(to right, #bcbcbc 25%,#ffcd02 25%, #ffcd02 50%, #e84f47 50%, #e84f47 75%, #65c1ac 75%);
+}
+
+.some {
+    position:fixed;
+    top: 97%;
+    left: 51%;
+    width:24em;
+    height:27em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+}
+
+@media only screen and (max-width: 360px) {
+    .card {
+        top:41%;
+        width:22em;
+        left:68%;
+    }
+    .some {
+        top:109%;
+        left:65%;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .card {
+        top:38%;
+        width:19em;
+        left:78%;
+        height: 25em;
+    }
+    .some {
+        top:110%;
+        left:65%;
+    }
+
+}
+
+@media only screen and (max-width: 414px) {
+    .card {
+
+        left:62%;
+
+    }
+    .some {
+
+        left:62%;
+    }
+
+}
+
+@media only screen and (max-width: 414px) {
+    .card {
+
+        left:65%;
+        width:23em;
+
+    }
+    .some {
+
+        left:62%;
+    }
+
+}
+.answer {
+ display: grid;
+ grid-template-columns: auto auto;
+ /*padding-top: 100px;*/
+ height: 36px;
+}
+
+.right {
+    background-color: green;
+    margin-left: 31px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.wrong {
+    background-color: red;
+    margin-left: 130px;
+    margin-right: 31px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.image {
+    margin-top: 30px;
+    border: 12px solid lavenderblush;
+}
+
+.desc {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+}
+
+
+.fact-text {
+    font-weight: bold;
+    font-family: serif;
+    font-size: 20px;
+    margin:0px 39px;
+    background: ivory;
+}
+
+.factright__icon {
+   margin-top: -1px;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* container */
+.container {
+    padding: 5% 5%;
+}
+
+/* CSS talk bubble */
+.talk-bubble {
+    margin: 40px;
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: auto;
+    background-color: lightyellow;
+}
+.border{
+    border: 8px solid #666;
+}
+.round{
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+
+}
+
+/* Right triangle placed top left flush. */
+
+.tri-right.border.btm-left:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -8px;
+    right: auto;
+    top: auto;
+    bottom: -40px;
+    border: 32px solid;
+    border-color: transparent transparent transparent #666;
+}
+.tri-right.btm-left:after{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 0px;
+    right: auto;
+    top: auto;
+    bottom: -20px;
+    border: 22px solid;
+    border-color: transparent transparent transparent lightyellow;
+}
+
+/*Right triangle, placed bottom left side slightly in*/
+.tri-right.border.btm-left-in:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 30px;
+    right: auto;
+    top: auto;
+    bottom: -40px;
+    border: 20px solid;
+    border-color: #666 transparent transparent #666;
+}
+.tri-right.btm-left-in:after{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 38px;
+    right: auto;
+    top: auto;
+    bottom: -20px;
+    border: 12px solid;
+    border-color: lightyellow transparent transparent lightyellow;
+}
+
+/* talk bubble contents */
+.talktext{
+    padding: 1em;
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+.talktext p{
+    /* remove webkit p margins */
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+
+
