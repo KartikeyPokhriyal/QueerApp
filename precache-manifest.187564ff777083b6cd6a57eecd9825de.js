@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7ed346ba82d0739427b0131e4f8df1c1",
+    "revision": "37e5bcaf9d2180a6f623f0cd15a671e1",
     "url": "/QueerApp/index.html"
   },
   {
-    "revision": "f151ddc7b2d368fb76af",
+    "revision": "b4b2b81aa4bfa9103155",
     "url": "/QueerApp/static/css/main.68b288f4.chunk.css"
   },
   {
-    "revision": "434ce99733d8a250e4c0",
-    "url": "/QueerApp/static/js/2.660a3bb4.chunk.js"
+    "revision": "b06e75507efd24a457ea",
+    "url": "/QueerApp/static/js/2.42ef0a00.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/QueerApp/static/js/2.660a3bb4.chunk.js.LICENSE.txt"
+    "url": "/QueerApp/static/js/2.42ef0a00.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f151ddc7b2d368fb76af",
-    "url": "/QueerApp/static/js/main.74745e40.chunk.js"
+    "revision": "b4b2b81aa4bfa9103155",
+    "url": "/QueerApp/static/js/main.bbee8589.chunk.js"
   },
   {
     "revision": "9b5fcbae325c142a926a",
