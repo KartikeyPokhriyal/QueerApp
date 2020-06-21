@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './css/factcard.css';
+import './css/header.css'
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import {display} from './Actions/AddTodo';
@@ -10,6 +11,7 @@ import {Button} from 'reactstrap'
 import reject from './css/reject.png'
 import accept from './css/accept.png'
 import Queer from "./queer";
+import Header from "./header";
 
 export class Homepage extends Component {
     constructor(props) {
@@ -26,9 +28,7 @@ export class Homepage extends Component {
         return (
             <div>
             {this.state.queer ? <Queer/> : <div>
-                <div className="some_header">
-                    <h2 className="mainHeading">Can you queer it up?</h2>
-                </div>
+                <Header/>
                 <div className="card_home" >
                    <h1>Instructions</h1>
                      <div className="displayIns">
