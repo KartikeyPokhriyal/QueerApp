@@ -49,7 +49,7 @@ export class OverlayCard extends Component {
                         <div className="overlay">
                             <div className="content">
                                 <span className="span_overlay">
-                                   {this.props.displayScore ? <Button className="home_button_overlay"  href="/queer">Start again</Button> : <i className="overlay__icon" onClick={()  => {this.props.display_val(null); this.calculate()}}></i>}
+                                   {this.props.displayScore ? <Button className="home_button_overlay"  href="/QueerApp">Start again</Button> : <i className="overlay__icon" onClick={()  => {this.props.display_val(null); this.calculate()}}></i>}
                                     </span>
                                 <img src={this.props.img} height="217px"/>
                             </div>

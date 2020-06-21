@@ -4,7 +4,7 @@ import './css/header.css'
 function Header() {
     return (
         <header>
-            <a href="/">
+            <a href="/QueerApp">
         <div className="header">
             <h1 className="hey">Queer It Up!</h1>
         </div>
