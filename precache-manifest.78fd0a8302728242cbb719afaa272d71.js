@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37e5bcaf9d2180a6f623f0cd15a671e1",
+    "revision": "5e37a9c9e83aab96958b4c60dc243c84",
     "url": "/QueerApp/index.html"
   },
   {
-    "revision": "b4b2b81aa4bfa9103155",
-    "url": "/QueerApp/static/css/main.68b288f4.chunk.css"
+    "revision": "8f3497cb7ed09c523462",
+    "url": "/QueerApp/static/css/main.cebaf553.chunk.css"
   },
   {
     "revision": "b06e75507efd24a457ea",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/QueerApp/static/js/2.42ef0a00.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b4b2b81aa4bfa9103155",
-    "url": "/QueerApp/static/js/main.bbee8589.chunk.js"
+    "revision": "8f3497cb7ed09c523462",
+    "url": "/QueerApp/static/js/main.4bd07554.chunk.js"
   },
   {
     "revision": "9b5fcbae325c142a926a",
@@ -38,10 +38,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d29a760cfa9e586841a8797d76f77d40",
     "url": "/QueerApp/static/media/babur.d29a760c.jpg"
-  },
-  {
-    "revision": "f605519e480730c4b99e41dad9d6c84b",
-    "url": "/QueerApp/static/media/bombay.f605519e.jpg"
   },
   {
     "revision": "a6e1fe0936747c39cc5330b5f49a1b78",
@@ -78,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d5e4727353b7a6bd848ad305c153a07c",
     "url": "/QueerApp/static/media/sasha.d5e47273.gif"
+  },
+  {
+    "revision": "a15fd658e7a9cb950b25b09560df2238",
+    "url": "/QueerApp/static/media/sexuality.a15fd658.jpg"
   },
   {
     "revision": "a24df539cfdabc1f7ece393a4032465e",

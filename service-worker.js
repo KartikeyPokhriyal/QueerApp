@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/QueerApp/precache-manifest.187564ff777083b6cd6a57eecd9825de.js"
+  "/QueerApp/precache-manifest.78fd0a8302728242cbb719afaa272d71.js"
 );
 
 self.addEventListener('message', (event) => {
