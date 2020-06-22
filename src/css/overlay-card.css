@@ -87,16 +87,6 @@
     justify-content: center;
 }
 
-/*.content {*/
-/*    position: relative;*/
-/*    display: inline-block;*/
-/*}*/
-
-/*.content .close {*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    right: 0;*/
-/*}*/
 .overlay__icon::before {
     content: "\2716";
     display: inline-block;

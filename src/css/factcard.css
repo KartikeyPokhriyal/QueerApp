@@ -39,7 +39,7 @@
     width:112px;
     height:80px;
     font-weight: bold;
-    font-family: fantasy;
+    font-family: sans-serif;
 }
 
 .home_button_overlay {
@@ -80,7 +80,7 @@
 
 .some {
     position:fixed;
-    top: 97%;
+    top: 101%;
     left: 51%;
     width:24em;
     height:27em;

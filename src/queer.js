@@ -11,7 +11,6 @@ import FactCard from "./FactCard";
 import california from './css/california.jpg'
 import ellen from './css/ellen.jpeg'
 import wedding from './css/wedding.jpg'
-import bombay from './css/bombay.jpg'
 import section from './css/377.jpg'
 import bi from './css/bi.jpg'
 import therapist from './css/therapist.jpg'
@@ -23,6 +22,7 @@ import flag from './css/flag.png'
 import non from './css/non.png'
 import Header from './header'
 import babur from './css/babur.jpg'
+import sexuality from './css/sexuality.jpg'
 
 export class Queer extends Component {
     constructor(props) {
@@ -35,7 +35,7 @@ export class Queer extends Component {
                 'fact': 'Stonewall was started by gay men',
                 'factImg': stonewall,
                 'factRight': 'It was actually led by trans women of colour',
-                'factWrong': 'Yes! It was not led by gay men',
+                'factWrong': 'Yes! It was actually led by trans women of colour',
                 'factRightImg': wrong,
                 'factWrongImg': correct,
                 'rightScore': 0,
@@ -71,7 +71,7 @@ export class Queer extends Component {
             {
                 'fact': 'California becomes the first state to decriminalize homosexuality',
                 'factImg': california,
-                'factRight': 'No!! It was actually Illinois in 1961!',
+                'factRight': 'It was actually Illinois in 1961!',
                 'factWrong': 'Yes!! It was actually at Illinois in 1961!',
                 'factRightImg': wrong,
                 'factWrongImg': correct,
@@ -91,8 +91,8 @@ export class Queer extends Component {
             {
                 'fact': 'The first legal same-sex marriage in the United States takes place in Massachusetts.',
                 'factImg': wedding,
-                'factRight': 'You\'re right! The first legal same-sex marriage ceremony in the United States happened on February 12, 2004',
-                'factWrong': 'You\'re wrong! The first legal same-sex marriage ceremony in the United States happened on February 12, 2004',
+                'factRight': 'The first legal same-sex marriage ceremony in the United States happened on February 12, 2004',
+                'factWrong': 'The first legal same-sex marriage ceremony in the United States happened on February 12, 2004',
                 'factRightImg': correct,
                 'factWrongImg': wrong,
                 'rightScore': 1,
@@ -101,25 +101,15 @@ export class Queer extends Component {
             {
                 'fact': 'Our First Mughal Emperor Was Not Straight',
                 'factImg': babur,
-                'factRight': 'You\'re right! Babur’s infatuation with a teenage boy named Baburi has even been documented in his memoirs',
-                'factWrong': 'You\'re wrong! Babur’s infatuation with a teenage boy named Baburi has even been documented in his memoirs',
+                'factRight': 'Yes! Babur’s infatuation with a teenage boy named Baburi has even been documented in his memoirs',
+                'factWrong': 'It is true.Babur’s infatuation with a teenage boy named Baburi has even been documented in his memoirs',
                 'factRightImg': correct,
                 'factWrongImg': wrong,
                 'rightScore': 1,
                 'wrongScore': 0
             },
             {
-                'fact': ' India’s second magazine for queer men is – BombayDost.',
-                'factImg': bombay,
-                'factRight': 'No! It was the  first magazine for queer men',
-                'factWrong': 'It was the  first magazine for queer men',
-                'factRightImg': wrong,
-                'factWrongImg': correct,
-                'rightScore': 0,
-                'wrongScore': 1
-            },
-            {
-                'fact': '377 was decriminalises on 6th sept 2018',
+                'fact': '377 was decriminalised on 6th sept 2018',
                 'factImg': section,
                 'factRight': 'On September 6, 2018, a historic judgment was made by the Supreme Court of India which decriminalized Section 377 of Indian Penal Code.',
                 'factWrong': 'It is true that On September 6, 2018, a historic judgment was made by the Supreme Court of India which decriminalized Section 377 of Indian Penal Code. ',
@@ -131,8 +121,18 @@ export class Queer extends Component {
             {
                 'fact': 'People who are bisexual are 50% gay and 50% straight.',
                 'factImg': bi,
-                'factRight': 'ABSOLUTELY RUBBISH! Gender is not maths.',
-                'factWrong': 'YES!!! Gender is not maths!',
+                'factRight': 'Gender is fluid! Like all other kinds of love there is no math involved',
+                'factWrong': 'Correct.Gender is fluid! Like all other kinds of love there is no math involved',
+                'factRightImg': wrong,
+                'factWrongImg': correct,
+                'rightScore': 0,
+                'wrongScore': 1
+            },
+            {
+                'fact': 'Sexuality and gender are the same',
+                'factImg': sexuality,
+                'factRight': 'Sexuality is your emotional and physical attraction to someone, whereas gender is more about self expression',
+                'factWrong': 'Sexuality is your emotional and physical attraction to someone, whereas gender is more about self expression',
                 'factRightImg': wrong,
                 'factWrongImg': correct,
                 'rightScore': 0,
@@ -141,7 +141,7 @@ export class Queer extends Component {
             {
                 'fact': 'Gay conversion therapy is a viable way of becoming straight.',
                 'factImg': therapist,
-                'factRight': '100% verified Rubbish! Love and accept the way people are.',
+                'factRight': 'It\'s false.Love and accept the way people are.',
                 'factWrong': 'YES!!!!! Love and accept the way people are.',
                 'factRightImg': wrong,
                 'factWrongImg': correct,
@@ -161,7 +161,7 @@ export class Queer extends Component {
             {
                 'fact': 'Gay men are feminine',
                 'factImg': gaymen,
-                'factRight': 'boo!!! Gender is an expression, everyone is beautiful in their own way',
+                'factRight': 'Gender is an expression, everyone is beautiful in their own way',
                 'factWrong': 'I know right! Gender is an expression, everyone is beautiful in their own way',
                 'factRightImg': wrong,
                 'factWrongImg': correct,
@@ -171,8 +171,8 @@ export class Queer extends Component {
             {
                 'fact': 'The song most commonly identified as a gay anthem is ‘Vogue’ by Madonna',
                 'factImg': madonna,
-                'factRight': 'No! It was ‘I Will Survive’ by Gloria Gaynor. It was described as "a classic emblem of gay culture in the post-Stonewall and AIDS eras and arguably disco’s greatest anthem.',
-                'factWrong': 'You\'re right! It was ‘I Will Survive’ by Gloria Gaynor. It was described as "a classic emblem of gay culture in the post-Stonewall and AIDS eras and arguably disco’s greatest anthem.',
+                'factRight': 'It was actually ‘I Will Survive’ by Gloria Gaynor. It was described as "a classic emblem of gay culture in the post-Stonewall and AIDS eras and arguably disco’s greatest anthem.',
+                'factWrong': 'Correct! It was ‘I Will Survive’ by Gloria Gaynor. It was described as "a classic emblem of gay culture in the post-Stonewall and AIDS eras and arguably disco’s greatest anthem.',
                 'factRightImg': wrong,
                 'factWrongImg': correct,
                 'rightScore': 0,
@@ -181,8 +181,8 @@ export class Queer extends Component {
             {
                 'fact': 'Sweden was first country in the world to allow transgender people to legally change their sex',
                 'factImg': trans,
-                'factRight': 'It\'s true. In 1972, Sweden became the first country in the world to allow transgender people to legally change their sex',
-                'factWrong': 'You\'re wrong ! In 1972, Sweden became the first country in the world to allow transgender people to legally change their sex',
+                'factRight': 'Yes! In 1972, Sweden became the first country in the world to allow transgender people to legally change their sex',
+                'factWrong': 'Actually in 1972, Sweden became the first country in the world to allow transgender people to legally change their sex',
                 'factRightImg': correct,
                 'factWrongImg': wrong,
                 'rightScore': 1,
@@ -192,7 +192,7 @@ export class Queer extends Component {
                 'fact': 'The A in LGBTQIA, only stands for asexual?',
                 'factImg': flag,
                 'factRight': 'You\'re absolutely correct!',
-                'factWrong': 'Nah nah! It\'s , A stands for asexual!',
+                'factWrong': 'A actually stands for asexual!',
                 'factRightImg': correct,
                 'factWrongImg': wrong,
                 'rightScore': 1,
@@ -201,7 +201,7 @@ export class Queer extends Component {
             {
                 'fact': 'Non-binary gender means having qualities of both male and female genders',
                 'factImg': non,
-                'factRight': 'No!!Non-binary gender is an umbrella term to describe any gender identity that does not fit into the gender binary of male and female',
+                'factRight': 'Non-binary gender is actually an umbrella term to describe any gender identity that does not fit into the gender binary of male and female',
                 'factWrong': 'Right! Non-binary gender is an umbrella term to describe any gender identity that does not fit into the gender binary of male and female',
                 'factRightImg': wrong,
                 'factWrongImg': correct,
@@ -211,7 +211,7 @@ export class Queer extends Component {
             {
                 'fact': 'The Q in LGBTQ stand for Queer',
                 'factImg': flag,
-                'factRight': 'No!!! It stands for Questioning!',
+                'factRight': 'It actually stands for Questioning!',
                 'factWrong': 'Yes! It stands for Questioning!',
                 'factRightImg': wrong,
                 'factWrongImg': correct,
