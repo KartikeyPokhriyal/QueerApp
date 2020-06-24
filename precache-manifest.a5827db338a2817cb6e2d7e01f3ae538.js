@@ -1,39 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "69d1654c85eeac5329772db7ed24224e",
+    "revision": "c54b80567e30d18c93c31752067da8c5",
     "url": "/QueerApp/index.html"
   },
   {
-    "revision": "9625bb070408fad1c795",
+    "revision": "872094cbf2ea59804dcd",
     "url": "/QueerApp/static/css/main.04e465b5.chunk.css"
   },
   {
-    "revision": "d262678afbad30db20b9",
-    "url": "/QueerApp/static/js/2.893d2222.chunk.js"
+    "revision": "93ec0b75961f3eee809b",
+    "url": "/QueerApp/static/js/2.28c58640.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/QueerApp/static/js/2.893d2222.chunk.js.LICENSE.txt"
+    "url": "/QueerApp/static/js/2.28c58640.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9625bb070408fad1c795",
-    "url": "/QueerApp/static/js/main.367edc95.chunk.js"
+    "revision": "872094cbf2ea59804dcd",
+    "url": "/QueerApp/static/js/main.ddb94856.chunk.js"
   },
   {
     "revision": "9b5fcbae325c142a926a",
     "url": "/QueerApp/static/js/runtime-main.b11fbb57.js"
   },
   {
-    "revision": "6ae5fdad17b2ccad60e1ac09fd376d53",
-    "url": "/QueerApp/static/media/128113-simple-board.6ae5fdad.jpg"
-  },
-  {
     "revision": "4e97bc45157fbba6619f821786fd9b19",
     "url": "/QueerApp/static/media/377.4e97bc45.jpg"
-  },
-  {
-    "revision": "df6a1020c6f486d93a823e0e1d336bf9",
-    "url": "/QueerApp/static/media/Stonewall-Image.df6a1020.jpg"
   },
   {
     "revision": "52cf93e2034943c7409407be1a04c2ac",
@@ -88,10 +80,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/QueerApp/static/media/pronouns.e77c5089.jpg"
   },
   {
-    "revision": "93ca31a5584112dd784b8017e86f61db",
-    "url": "/QueerApp/static/media/queer-rev-collage-LAMAG_LGBTQ_AGNEW-1068x706.93ca31a5.jpg"
-  },
-  {
     "revision": "b544d4ffb6d662a8d6b680368361561c",
     "url": "/QueerApp/static/media/reject.b544d4ff.png"
   },
@@ -104,24 +92,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/QueerApp/static/media/sexgender.9ee9cc2a.jpg"
   },
   {
-    "revision": "a15fd658e7a9cb950b25b09560df2238",
-    "url": "/QueerApp/static/media/sexuality.a15fd658.jpg"
-  },
-  {
     "revision": "a24df539cfdabc1f7ece393a4032465e",
     "url": "/QueerApp/static/media/stoner.a24df539.svg"
   },
   {
-    "revision": "3e8262015d7890c9b1e73430b94f81d4",
-    "url": "/QueerApp/static/media/therapist.3e826201.jpg"
-  },
-  {
     "revision": "5c7c26f059287b36c7b025f7c6b53863",
     "url": "/QueerApp/static/media/try.5c7c26f0.gif"
-  },
-  {
-    "revision": "f9310066628419cc674f8be34baf21a3",
-    "url": "/QueerApp/static/media/wedding.f9310066.jpg"
   },
   {
     "revision": "4e2266543219b9b5cf697f5532a7386b",
