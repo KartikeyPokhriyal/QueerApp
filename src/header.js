@@ -1,12 +1,13 @@
 import React from 'react';
 import './css/header.css'
-
+import stone from './css/Stonewall-Image.jpg'
 function Header() {
     return (
         <header>
             <a href="/QueerApp">
         <div className="header">
-            <h1 className="hey">Queer It Up!</h1>
+
+            <img src={stone}/>
         </div>
             </a>
             </header>

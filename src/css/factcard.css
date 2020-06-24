@@ -6,13 +6,37 @@
     height:27em;
     margin-top: -9em; /*set to a negative number 1/2 of your height*/
     margin-left: -15em; /*set to a negative number 1/2 of your width*/
-    display: grid;
-    grid-template-rows: auto auto;
-    grid-row-gap: 40px;
+
     border-radius: 25px;
     background: linear-gradient(to right, #bcbcbc 25%,#ffcd02 25%, #ffcd02 50%, #e84f47 50%, #e84f47 75%, #65c1ac 75%);
 }
+.heading_home {
+    margin-top: -50px;
+    margin-left: 102px;
+    text-decoration: none;
+    color: black;
+}
 
+.how_to {
+    margin:0px;
+    background: white;
+}
+
+.scoreMe {
+    margin-left: 42%;
+    margin-right: 42%;
+}
+
+.instruction_heading {
+    margin-top: 46px;
+    margin-left: 0px;
+    cursor:pointer;
+}
+
+.main_page {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
 .displayIns {
     display: grid;
     grid-template-columns: auto auto;
@@ -30,29 +54,48 @@
     border: 2px solid beige;
 }
 
-.home_button {
-    background-color: ivory;
-    border: 2px solid lavenderblush;
-    font-size: x-large;
-    border-radius: 30px;
-    margin-bottom: -8px;
-    width:112px;
-    height:80px;
+.app-overview {
+    margin-left:19px;
+    cursor: default;
+    color: black;
     font-weight: bold;
-    font-family: sans-serif;
+}
+.small {
+    height:22em;
+}
+.help {
+    top:36%;
+    left:76%;
+    display: grid;
+    height: auto;
+    /* width: 12px; */
+    background: none;
+    grid-template-rows: auto auto;
+    grid-row-gap: 61px;
 }
 
-.home_button_overlay {
-    text-decoration: none;
-    color: black;
-    background-color: ivory;
-    border: 2px solid lavenderblush;
-    font-size: x-large;
-    border-radius: 30px;
-    margin-bottom: -8px;
-    width:112px;
-    height:80px;
+.statement p{
+    background: lightgoldenrodyellow;
+    border-radius: 25px;
+    padding: 12px;
+    width:280px;
+    font-weight: bold;
+    font-size: large;
 }
+
+.home_button {
+    font-size: large;
+    /* border-radius: 30px; */
+    margin-bottom: -8px;
+    width: 145px;
+    height: 45px;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    cursor: pointer;
+    background: white;
+}
+
+
 .some_header {
     position:fixed;
     top: 97%;
@@ -63,19 +106,46 @@
     margin-left: -15em;
 }
 .card_home {
+    grid-row-gap: 12px;
     justify-items: center;
-    position:fixed;
-    top: 34%;
-    left: 51%;
-    width:24em;
-    height:27em;
-    margin-top: -9em; /*set to a negative number 1/2 of your height*/
-    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    position: fixed;
+    top: 27%;
+    left: 57%;
+    height: 15em;
+    margin-top: -9em;
+    margin-left: -15em;
     display: grid;
-    grid-template-rows: auto auto;
-    grid-row-gap: 40px;
-    border-radius: 25px;
-    background: linear-gradient(to right, #bcbcbc 25%,#ffcd02 25%, #ffcd02 50%, #e84f47 50%, #e84f47 75%, #65c1ac 75%);
+    grid-template-rows: auto auto auto;
+}
+
+.baba {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.card_home_one {
+    position: fixed;
+    top: 83%;
+    left: 25%;
+    height: 10em;
+    margin-top: -9em;
+    margin-left: -15em;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: flex-start;
+}
+
+.card_home_two {
+    position: fixed;
+    top: 85%;
+    left: 74%;
+    height: 10em;
+    margin-top: -9em;
+    margin-left: -15em;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: flex-start;
+
 }
 
 .some {
@@ -91,59 +161,376 @@
     justify-items: center;
 }
 
-@media only screen and (max-width: 360px) {
-    .card {
-        top:41%;
-        width:22em;
-        left:68%;
-    }
-    .some {
-        top:109%;
-        left:65%;
-    }
-
+.another {
+    top: 109%;
+    /* left: 51%; */
+    width: 24em;
+    height: 2em;
+    margin-top: -9em;
+    margin-left: -15em;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
 }
 
-@media only screen and (max-width: 320px) {
-    .card {
-        top:38%;
-        width:19em;
-        left:78%;
-        height: 25em;
-    }
-    .some {
-        top:110%;
-        left:65%;
-    }
-
+.two_things {
+    display: grid;
+    grid-template-columns: 0fr auto;
+    margin-top: -112px;
+    margin-left: -125px;
+}
+.three {
+    grid-template-columns: auto auto auto auto;
 }
 
-@media only screen and (max-width: 414px) {
-    .card {
-
-        left:62%;
-
-    }
-    .some {
-
-        left:62%;
-    }
-
+.some_home {
+    position: fixed;
+    top: 96%;
+    /* left: 26%; */
+    width: 95em;
+    height: 27em;
+    margin-top: -9em;
+    /* margin-left: -15em; */
+    display: grid;
+    background-image: url("./crowd-young-elderly-men-women-trendy-hipster-clothes_10083-912.jpg");
 }
 
-@media only screen and (max-width: 414px) {
+@media screen
+and (min-device-width: 1368px)
+and (max-device-width: 1420px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (min-resolution: 192dpi) {
     .card {
-
-        left:65%;
-        width:23em;
-
+        top: 32%;
+        width: 22em;
+        left: 56%;
     }
     .some {
-
-        left:62%;
+        top: 97%;
+        left: 55%;
+    }
+    .another {
+        top: 104%;
     }
 
+    .scoreMe {
+        margin-left: 45%;
+        margin-right: 30%;
+    }
+
+    .help {
+        top:32%;
+        left:79%;
+        display: grid;
+        height: auto;
+        /* width: 12px; */
+        background: none;
+        grid-template-rows: auto auto;
+        grid-row-gap: 61px;
+    }
+    .two_things {
+        display: grid;
+        margin-top: -112px;
+        margin-left: -125px;
+    }
+    .card_home_one {
+        position: fixed;
+        top: 83%;
+        left: 25%;
+        height: 10em;
+        margin-top: -9em;
+        margin-left: -15em;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-items: flex-start;
+    }
+
+    .card_home_two {
+        position: fixed;
+        top: 85%;
+        left: 74%;
+        height: 10em;
+        margin-top: -9em;
+        margin-left: -15em;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-items: flex-start;
+    }
+    .some_home {
+        position: fixed;
+        top: 96%;
+        /* left: 26%; */
+        width: 95em;
+        height: 27em;
+        margin-top: -9em;
+        /* margin-left: -15em; */
+        display: grid;
+        background-image: url("./crowd-young-elderly-men-women-trendy-hipster-clothes_10083-912.jpg");
+    }
 }
+
+.factwrong__icon {
+    cursor: pointer;
+}
+
+@media screen
+and (min-device-width: 992px)
+and (max-device-width: 1230px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (min-resolution: 192dpi) {
+    .card {
+        top: 33%;
+        width: 22em;
+        left: 58%;
+    }
+    .some {
+        top: 99%;
+        left: 57%;
+    }
+
+    .another {
+        top: 104%;
+        left: 57%;
+    }
+    .small {
+        top:33%;
+    }
+    .scoreMe {
+        margin-left: 46%;
+        margin-right: 38%;
+    }
+    .help {
+        top:35%;
+        left:86%;
+        display: grid;
+        height: auto;
+        /* width: 12px; */
+        background: none;
+        grid-template-rows: auto auto;
+        grid-row-gap: 61px;
+    }
+    .two_things {
+        display: grid;
+        margin-top: -112px;
+        margin-left: -125px;
+    }
+
+    .card_home_one {
+        position: fixed;
+        top: 83%;
+        left: 25%;
+        height: 10em;
+        margin-top: -9em;
+        margin-left: -15em;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-items: flex-start;
+    }
+
+    .card_home_two {
+        position: fixed;
+        top: 85%;
+        left: 74%;
+        height: 10em;
+        margin-top: -9em;
+        margin-left: -15em;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-items: flex-start;
+    }
+    .some_home {
+        position: fixed;
+        top: 96%;
+        /* left: 26%; */
+        width: 95em;
+        height: 27em;
+        margin-top: -9em;
+        /* margin-left: -15em; */
+        display: grid;
+        background-image: url("./crowd-young-elderly-men-women-trendy-hipster-clothes_10083-912.jpg");
+    }
+}
+
+@media screen
+and (min-device-width: 1356px)
+and (max-device-width: 1367px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (min-resolution: 192dpi) {
+
+    .card {
+        top: 33%;
+        width: 22em;
+        left: 56%;
+    }
+    .some {
+        top: 99%;
+        left: 55%;
+    }
+    .another {
+        top: 104%;
+        left: 57%;
+    }
+
+    .scoreMe {
+        margin-left: 47%;
+        margin-right: 27%;
+    }
+
+    .help {
+        top:32%;
+        left:81%;
+        display: grid;
+        height: auto;
+        /* width: 12px; */
+        background: none;
+        grid-template-rows: auto auto;
+        grid-row-gap: 61px;
+    }
+    .two_things {
+        display: grid;
+        margin-top: -112px;
+        margin-left: -125px;
+    }
+
+    .another {
+        top: 104%;
+        left: 57%;
+    }
+    .small {
+        top:33%;
+    }
+    .help {
+        top:35%;
+        left:83%;
+        display: grid;
+        height: auto;
+        /* width: 12px; */
+        background: none;
+        grid-template-rows: auto auto;
+        grid-row-gap: 61px;
+    }
+    .two_things {
+        display: grid;
+        margin-top: -112px;
+        margin-left: -125px;
+    }
+
+
+    .card_home_one {
+        position: fixed;
+        top: 83%;
+        left: 25%;
+        height: 10em;
+        margin-top: -9em;
+        margin-left: -15em;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-items: flex-start;
+    }
+
+    .card_home_two {
+        position: fixed;
+        top: 85%;
+        left: 74%;
+        height: 10em;
+        margin-top: -9em;
+        margin-left: -15em;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-items: flex-start;
+    }
+    .some_home {
+        position: fixed;
+        top: 96%;
+        /* left: 26%; */
+        width: 95em;
+        height: 27em;
+        margin-top: -9em;
+        /* margin-left: -15em; */
+        display: grid;
+        background-image: url("./crowd-young-elderly-men-women-trendy-hipster-clothes_10083-912.jpg");
+    }
+}
+
+@media screen
+and (min-device-width: 1231px)
+and (max-device-width: 1356px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (min-resolution: 192dpi) {
+    .card {
+        top: 31%;
+        width: 22em;
+        left: 58%;
+    }
+    .some {
+        top: 98%;
+        left: 58%;
+    }
+
+    .another {
+        top: 104%;
+        left: 57%;
+    }
+    .scoreMe {
+        margin-left: 47%;
+        margin-right: 27%;
+    }
+  .small {
+      top:33%;
+  }
+    .help {
+        top:35%;
+        left:83%;
+        display: grid;
+        height: auto;
+        /* width: 12px; */
+        background: none;
+        grid-template-rows: auto auto;
+        grid-row-gap: 61px;
+    }
+    .two_things {
+        display: grid;
+        margin-top: -112px;
+        margin-left: -125px;
+    }
+
+
+    .card_home_one {
+        position: fixed;
+        top: 83%;
+        left: 25%;
+        height: 10em;
+        margin-top: -9em;
+        margin-left: -15em;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-items: flex-start;
+    }
+
+    .card_home_two {
+        position: fixed;
+        top: 85%;
+        left: 74%;
+        height: 10em;
+        margin-top: -9em;
+        margin-left: -15em;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-items: flex-start;
+    }
+    .some_home {
+        position: fixed;
+        top: 96%;
+        /* left: 26%; */
+        width: 95em;
+        height: 27em;
+        margin-top: -9em;
+        /* margin-left: -15em; */
+        display: grid;
+        background-image: url("./crowd-young-elderly-men-women-trendy-hipster-clothes_10083-912.jpg");
+    }
+}
+
 .answer {
  display: grid;
  grid-template-columns: auto auto;
@@ -155,7 +542,7 @@
     background-color: green;
     margin-left: 31px;
     padding-top: 10px;
-    font-family: sans-serif;
+    font-family: "Comic Sans MS", cursive, sans-serif;
     font-weight: bold;
     border-radius: 25px;
 }
@@ -165,7 +552,7 @@
     margin-left: 130px;
     margin-right: 31px;
     padding-top: 10px;
-    font-family: sans-serif;
+    font-family: "Comic Sans MS", cursive, sans-serif;
     font-weight: bold;
     border-radius: 25px;
 }
@@ -179,12 +566,17 @@
     display: grid;
     grid-template-rows: auto auto;
     justify-items: center;
+    grid-row-gap: 42px;
 }
 
+.ins {
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 59px;
+}
 
 .fact-text {
     font-weight: bold;
-    font-family: serif;
+    font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 20px;
     margin:0px 39px;
     background: ivory;
@@ -192,10 +584,16 @@
 
 .factright__icon {
    margin-top: -1px;
+  cursor: pointer;
+}
+
+
+.unclickable {
+    cursor:default;
 }
 
 body{
-    font-family: sans-serif;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 /* container */
@@ -205,15 +603,29 @@ body{
 
 /* CSS talk bubble */
 .talk-bubble {
-    margin: 40px;
+
+    margin: 20px;
     display: inline-block;
     position: relative;
     width: 200px;
     height: auto;
-    background-color: lightyellow;
+    background-color: lightgoldenrodyellow;
 }
+
+
+.talk-bubble-another {
+
+    margin: 20px;
+display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 91px;
+    background-color: lightgoldenrodyellow;
+}
+
+
 .border{
-    border: 8px solid #666;
+    border: 2px solid black;
 }
 .round{
     border-radius: 30px;
@@ -223,7 +635,58 @@ body{
 }
 
 /* Right triangle placed top left flush. */
+.tri-right.border.left-top:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -40px;
+    right: auto;
+    top: -8px;
+    bottom: auto;
+    border: 32px solid;
+    border-color: #666 transparent transparent transparent;
+}
+.tri-right.left-top:after{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -20px;
+    right: auto;
+    top: 0px;
+    bottom: auto;
+    border: 22px solid;
+    border-color: lightgoldenrodyellow transparent transparent transparent;
+}
 
+/* Right triangle, left side slightly down */
+.tri-right.border.left-in:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -40px;
+    right: auto;
+    top: 30px;
+    bottom: auto;
+    border: 20px solid;
+    border-color: #666 #666 transparent transparent;
+}
+.tri-right.left-in:after{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -20px;
+    right: auto;
+    top: 38px;
+    bottom: auto;
+    border: 12px solid;
+    border-color: lightgoldenrodyellow lightgoldenrodyellow transparent transparent;
+}
+
+/*Right triangle, placed bottom left side slightly in*/
 .tri-right.border.btm-left:before {
     content: ' ';
     position: absolute;
@@ -246,7 +709,7 @@ body{
     top: auto;
     bottom: -20px;
     border: 22px solid;
-    border-color: transparent transparent transparent lightyellow;
+    border-color: transparent transparent transparent lightgoldenrodyellow;
 }
 
 /*Right triangle, placed bottom left side slightly in*/
@@ -272,7 +735,120 @@ body{
     top: auto;
     bottom: -20px;
     border: 12px solid;
-    border-color: lightyellow transparent transparent lightyellow;
+    border-color: lightgoldenrodyellow transparent transparent lightgoldenrodyellow;
+}
+
+/*Right triangle, placed bottom right side slightly in*/
+.tri-right.border.btm-right-in:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: 30px;
+    bottom: -40px;
+    border: 20px solid;
+    border-color: #666 #666 transparent transparent;
+}
+.tri-right.btm-right-in:after{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: 38px;
+    bottom: -20px;
+    border: 12px solid;
+    border-color: lightgoldenrodyellow lightgoldenrodyellow transparent transparent;
+}
+/*
+	left: -8px;
+  right: auto;
+  top: auto;
+	bottom: -40px;
+	border: 32px solid;
+	border-color: transparent transparent transparent #666;
+	left: 0px;
+  right: auto;
+  top: auto;
+	bottom: -20px;
+	border: 22px solid;
+	border-color: transparent transparent transparent lightgoldenrodyellow;
+
+/*Right triangle, placed bottom right side slightly in*/
+.tri-right.border.btm-right:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: -8px;
+    bottom: -40px;
+    border: 20px solid;
+    border-color: #666 #666 transparent transparent;
+}
+.tri-right.btm-right:after{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: 0px;
+    bottom: -20px;
+    border: 12px solid;
+    border-color: lightgoldenrodyellow lightgoldenrodyellow transparent transparent;
+}
+
+/* Right triangle, right side slightly down*/
+.tri-right.border.right-in:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: -40px;
+    top: 30px;
+    bottom: auto;
+    border: 20px solid;
+    border-color: #666 transparent transparent #666;
+}
+.tri-right.right-in:after{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: -20px;
+    top: 38px;
+    bottom: auto;
+    border: 12px solid;
+    border-color: lightgoldenrodyellow transparent transparent lightgoldenrodyellow;
+}
+
+/* Right triangle placed top right flush. */
+.tri-right.border.right-top:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: -40px;
+    top: -8px;
+    bottom: auto;
+    border: 32px solid;
+    border-color: #666 transparent transparent transparent;
+}
+.tri-right.right-top:after{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: -20px;
+    top: 0px;
+    bottom: auto;
+    border: 20px solid;
+    border-color: lightgoldenrodyellow transparent transparent transparent;
 }
 
 /* talk bubble contents */

@@ -26,14 +26,15 @@ export class FactCard extends Component {
         console.log(this.props)
         return (
             <div>
+                <div className="scoreMe"><h2>SCORE:({this.props.scoreItem.score}/16)</h2></div>
                 <div className="card">
+
+                    <a href="/QueerApp"><h1 className="heading_home">LGBTQuiz</h1></a>
                     <div className="desc">
-                        <img src={this.props.factImg} className="image" height="165px" width="185px"/>
-                        <div className="talk-bubble tri-right round btm-left">
-                            <div className="talktext">
-                                <p>{this.props.fact}</p>
-                            </div>
-                        </div>
+                        <img src={this.props.factImg} className="image" height="165px" width="212px"/>
+                                <div className="statement">
+                                    <p>{this.props.fact}</p>
+                                </div>
                     </div>
                 </div>
                 <div className="some">
@@ -60,7 +61,8 @@ export class FactCard extends Component {
 function mapStateToProps(state) {
     return {
         addItem: state.addItem,
-        countItem: state.countItem
+        countItem: state.countItem,
+        scoreItem:state.scoreItem,
     };
 }
 

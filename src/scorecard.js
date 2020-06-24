@@ -26,7 +26,7 @@ export class Scorecard extends Component {
                         <img src={america} height="217px"/>
                     </div>
                     <div className="content_two">
-                        <span className="overlay__text">Calculating your score.....</span>
+                        <span className="overlay__text">Hope you had fun.....</span>
                     </div>
                 </div>
             </div>

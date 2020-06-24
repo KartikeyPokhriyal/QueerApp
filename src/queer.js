@@ -10,19 +10,16 @@ import wrong from './css/wrong.gif'
 import FactCard from "./FactCard";
 import california from './css/california.jpg'
 import ellen from './css/ellen.jpeg'
-import wedding from './css/wedding.jpg'
 import section from './css/377.jpg'
-import bi from './css/bi.jpg'
-import therapist from './css/therapist.jpg'
 import pronoun from './css/pronouns.jpg'
 import gaymen from './css/gaymen.jpg'
 import madonna from './css/madonna.jpg'
 import trans from './css/trans.png'
 import flag from './css/flag.png'
 import non from './css/non.png'
-import Header from './header'
 import babur from './css/babur.jpg'
-import sexuality from './css/sexuality.jpg'
+import intersex from './css/intersex.png'
+import sexgender from './css/sexgender.jpg'
 
 export class Queer extends Component {
     constructor(props) {
@@ -32,10 +29,10 @@ export class Queer extends Component {
     componentDidMount() {
         const data = [
             {
-                'fact': 'Stonewall was started by gay men',
-                'factImg': stonewall,
-                'factRight': 'It was actually led by trans women of colour',
-                'factWrong': 'Yes! It was actually led by trans women of colour',
+                'fact': 'The Q in LGBTQ stand for Queer',
+                'factImg': flag,
+                'factRight': 'It actually stands for Queer AND Questioning!',
+                'factWrong': 'It stands for Questioning AND Queer!',
                 'factRightImg': wrong,
                 'factWrongImg': correct,
                 'rightScore': 0,
@@ -59,17 +56,27 @@ export class Queer extends Component {
 
         const data = [
             {
-                'fact': 'Stonewall was started by gay men',
-                'factImg': stonewall,
-                'factRight': 'It was actually led by trans women of colour',
-                'factWrong': 'Yes! It was not led by gay men',
+                'fact': 'The Q in LGBTQ stand for Queer',
+                'factImg': flag,
+                'factRight': 'It actually stands for Queer AND Questioning!',
+                'factWrong': 'It stands for Questioning AND Queer!',
                 'factRightImg': wrong,
                 'factWrongImg': correct,
                 'rightScore': 0,
                 'wrongScore': 1
             },
             {
-                'fact': 'California becomes the first state to decriminalize homosexuality',
+                'fact': 'There is no relevance to Pride Month, it can be any month!',
+                'factImg': stonewall,
+                'factRight': 'LGBT Pride Month occurs in the United States to commemorate the Stonewall riots, which occurred at the end of June 1969.',
+                'factWrong': 'LGBT Pride Month occurs in the United States to commemorate the Stonewall riots, which occurred at the end of June 1969.',
+                'factRightImg': wrong,
+                'factWrongImg': correct,
+                'rightScore': 0,
+                'wrongScore': 1
+            },
+            {
+                'fact': 'California becomes the first state in the United States to decriminalize homosexuality',
                 'factImg': california,
                 'factRight': 'It was actually Illinois in 1961!',
                 'factWrong': 'Yes!! It was actually at Illinois in 1961!',
@@ -89,14 +96,24 @@ export class Queer extends Component {
                 'wrongScore': 0
             },
             {
-                'fact': 'The first legal same-sex marriage in the United States takes place in Massachusetts.',
-                'factImg': wedding,
-                'factRight': 'The first legal same-sex marriage ceremony in the United States happened on February 12, 2004',
-                'factWrong': 'The first legal same-sex marriage ceremony in the United States happened on February 12, 2004',
-                'factRightImg': correct,
-                'factWrongImg': wrong,
-                'rightScore': 1,
-                'wrongScore': 0
+                'fact': 'The above image is the Lesbain flag',
+                'factImg': intersex,
+                'factRight': 'It is an intersex flag',
+                'factWrong': 'It is an intersex flag',
+                'factRightImg': wrong,
+                'factWrongImg': correct,
+                'rightScore': 0,
+                'wrongScore': 1
+            },
+            {
+                'fact': 'Intersex gender is similiar to transgender',
+                'factImg': intersex,
+                'factRight': 'Intersex is a general term used for a variety of conditions in which a person is born with a reproductive or sexual anatomy that doesn\'t seem to fit the typical definitions of female or male.',
+                'factWrong': 'Intersex is a general term used for a variety of conditions in which a person is born with a reproductive or sexual anatomy that doesn\'t seem to fit the typical definitions of female or male.',
+                'factRightImg': wrong,
+                'factWrongImg': correct,
+                'rightScore': 0,
+                'wrongScore': 1
             },
             {
                 'fact': 'Our First Mughal Emperor Was Not Straight',
@@ -109,7 +126,17 @@ export class Queer extends Component {
                 'wrongScore': 0
             },
             {
-                'fact': '377 was decriminalised on 6th sept 2018',
+                'fact': 'Everyone who is transgender decide to transition!',
+                'factImg': trans,
+                'factRight': 'No, not all transgender people transition. For those who do, not all transition in the same way. Some may transition socially and not medically.',
+                'factWrong': 'No, not all transgender people transition. For those who do, not all transition in the same way. Some may transition socially and not medically.',
+                'factRightImg': wrong,
+                'factWrongImg': correct,
+                'rightScore': 0,
+                'wrongScore': 1
+            },
+            {
+                'fact': 'Section 377 in India was decriminalised on 6th sept 2018',
                 'factImg': section,
                 'factRight': 'On September 6, 2018, a historic judgment was made by the Supreme Court of India which decriminalized Section 377 of Indian Penal Code.',
                 'factWrong': 'It is true that On September 6, 2018, a historic judgment was made by the Supreme Court of India which decriminalized Section 377 of Indian Penal Code. ',
@@ -119,30 +146,10 @@ export class Queer extends Component {
                 'wrongScore': 0
             },
             {
-                'fact': 'People who are bisexual are 50% gay and 50% straight.',
-                'factImg': bi,
-                'factRight': 'Gender is fluid! Like all other kinds of love there is no math involved',
-                'factWrong': 'Correct.Gender is fluid! Like all other kinds of love there is no math involved',
-                'factRightImg': wrong,
-                'factWrongImg': correct,
-                'rightScore': 0,
-                'wrongScore': 1
-            },
-            {
-                'fact': 'Sexuality and gender are the same',
-                'factImg': sexuality,
+                'fact': 'Sexuality and gender are the same thing',
+                'factImg': sexgender,
                 'factRight': 'Sexuality is your emotional and physical attraction to someone, whereas gender is more about self expression',
                 'factWrong': 'Sexuality is your emotional and physical attraction to someone, whereas gender is more about self expression',
-                'factRightImg': wrong,
-                'factWrongImg': correct,
-                'rightScore': 0,
-                'wrongScore': 1
-            },
-            {
-                'fact': 'Gay conversion therapy is a viable way of becoming straight.',
-                'factImg': therapist,
-                'factRight': 'It\'s false.Love and accept the way people are.',
-                'factWrong': 'YES!!!!! Love and accept the way people are.',
                 'factRightImg': wrong,
                 'factWrongImg': correct,
                 'rightScore': 0,
@@ -159,7 +166,7 @@ export class Queer extends Component {
                 'wrongScore': 0
             },
             {
-                'fact': 'Gay men are feminine',
+                'fact': 'Gay men are feminine in nature',
                 'factImg': gaymen,
                 'factRight': 'Gender is an expression, everyone is beautiful in their own way',
                 'factWrong': 'I know right! Gender is an expression, everyone is beautiful in their own way',
@@ -191,28 +198,18 @@ export class Queer extends Component {
             {
                 'fact': 'The A in LGBTQIA, only stands for asexual?',
                 'factImg': flag,
-                'factRight': 'You\'re absolutely correct!',
-                'factWrong': 'A actually stands for asexual!',
-                'factRightImg': correct,
-                'factWrongImg': wrong,
-                'rightScore': 1,
-                'wrongScore': 0
-            },
-            {
-                'fact': 'Non-binary gender means having qualities of both male and female genders',
-                'factImg': non,
-                'factRight': 'Non-binary gender is actually an umbrella term to describe any gender identity that does not fit into the gender binary of male and female',
-                'factWrong': 'Right! Non-binary gender is an umbrella term to describe any gender identity that does not fit into the gender binary of male and female',
+                'factRight': 'A actually stands for asexual, agender, aromantic and ally!',
+                'factWrong': 'A stands for asexual, agender, aromantic and ally!',
                 'factRightImg': wrong,
                 'factWrongImg': correct,
                 'rightScore': 0,
                 'wrongScore': 1
             },
             {
-                'fact': 'The Q in LGBTQ stand for Queer',
-                'factImg': flag,
-                'factRight': 'It actually stands for Questioning!',
-                'factWrong': 'Yes! It stands for Questioning!',
+                'fact': 'Non-binary gender means having qualities of both male and female genders',
+                'factImg': non,
+                'factRight': 'Non-binary gender is actually an umbrella term to describe any gender identity that does not fit into the gender binary of male and female',
+                'factWrong': 'Right! Non-binary gender is an umbrella term to describe any gender identity that does not fit into the gender binary of male and female',
                 'factRightImg': wrong,
                 'factWrongImg': correct,
                 'rightScore': 0,
@@ -239,7 +236,6 @@ export class Queer extends Component {
 
         return (
             <div>
-                <Header/>
                 {this.props.addItem.displayit}
                 {this.props.displayItem.comp}
             </div>

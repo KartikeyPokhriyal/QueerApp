@@ -5,7 +5,7 @@
     bottom:0;
     display: grid;
     grid-template-rows: auto auto;
-    font-family: serif;
+    font-family: "Comic Sans MS", cursive, sans-serif;;
     font-size: 32px;
     justify-content: center;
     margin: auto;
@@ -14,12 +14,24 @@
     text-align: center;
     width: 515px;
     border-radius: 25px;
+    grid-row-gap: 12px;
 }
 .span_overlay {
-    padding-bottom: 10px;
+    /*margin-top: 39px;*/
 }
 .home_button_overlay {
+    font-size: x-large;
+    /* border-radius: 30px; */
+
+    width: 191px;
+    height: 49px;
     font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    cursor: pointer;
+    background: white;
+    margin-top:18px;
+    text-decoration: none;
+    color: black;
 }
 
 @media only screen and (max-width: 360px) {
@@ -51,13 +63,11 @@
 }
 
 .overlay__text {
-    font-size: 26px;
-    margin-bottom:60px;
+    font-size: 20px;
     background: ivory;
     border: 12px solid lavenderblush;
-    font-family: Helvetica;
+    font-family: "Comic Sans MS", cursive, sans-serif;;
     font-weight: bold;
-    margin-top: 13px;
 }
 
 .something {
@@ -87,23 +97,36 @@
     justify-content: center;
 }
 
-.overlay__icon::before {
-    content: "\2716";
-    display: inline-block;
-    font-family: fa-drawasaurus;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    line-height: 1em;
-    margin-left: .2em;
-    margin-right: .2em;
-    speak: none;
-    text-align: center;
-    text-decoration: inherit;
-    text-transform: none;
-    width: 1em;
+/*.overlay__icon::before {*/
+/*    content: "\2716";*/
+/*    display: inline-block;*/
+/*    font-family: "Comic Sans MS", cursive, sans-serif;;*/
+/*    -webkit-font-smoothing: antialiased;*/
+/*    -moz-osx-font-smoothing: grayscale;*/
+/*    font-style: normal;*/
+/*    font-variant: normal;*/
+/*    font-weight: 400;*/
+/*    line-height: 1em;*/
+/*    margin-left: .2em;*/
+/*    margin-right: .2em;*/
+/*    speak: none;*/
+/*    text-align: center;*/
+/*    text-decoration: inherit;*/
+/*    text-transform: none;*/
+/*    width: 1em;*/
+/*}*/
+
+.overlay__icon {
+    font-size: x-large;
+    /* border-radius: 30px; */
+
+    width: 191px;
+    height: 49px;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    cursor: pointer;
+    background: white;
+    margin-top:18px;
 }
 
 .c-room-error__button {
