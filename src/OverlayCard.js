@@ -25,7 +25,7 @@ export class OverlayCard extends Component {
     calculate() {
         let img;
         let text;
-        if(this.props.countItem.count === 16) {
+        if(this.props.countItem.count === 15) {
             if(this.props.scoreItem.score <= 3 )
             { img = tried;
                 text = "We all are learning, so chill!"}
@@ -37,7 +37,7 @@ export class OverlayCard extends Component {
                 text = "You're amazing!!!!!!" }
 
             this.props.display_val(<Scorecard/>)
-            setTimeout(()=>{this.props.display_val(<OverlayCard text={"Your score is:" +  this.props.scoreItem.score + "/" + 16 + "\n" + text} img={img} scores={0} displayScore={true}/>)}, 3000)
+            setTimeout(()=>{this.props.display_val(<OverlayCard text={"Your score is:" +  this.props.scoreItem.score + "/" + 15 + "\n" + text} img={img} scores={0} displayScore={true}/>)}, 3000)
         }
     }
 

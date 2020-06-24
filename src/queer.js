@@ -126,16 +126,6 @@ export class Queer extends Component {
                 'wrongScore': 0
             },
             {
-                'fact': 'Everyone who is transgender decide to transition!',
-                'factImg': trans,
-                'factRight': 'No, not all transgender people transition. For those who do, not all transition in the same way. Some may transition socially and not medically.',
-                'factWrong': 'No, not all transgender people transition. For those who do, not all transition in the same way. Some may transition socially and not medically.',
-                'factRightImg': wrong,
-                'factWrongImg': correct,
-                'rightScore': 0,
-                'wrongScore': 1
-            },
-            {
                 'fact': 'Section 377 in India was decriminalised on 6th sept 2018',
                 'factImg': section,
                 'factRight': 'On September 6, 2018, a historic judgment was made by the Supreme Court of India which decriminalized Section 377 of Indian Penal Code.',

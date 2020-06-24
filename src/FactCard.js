@@ -26,7 +26,7 @@ export class FactCard extends Component {
         console.log(this.props)
         return (
             <div>
-                <div className="scoreMe"><h2>SCORE:({this.props.scoreItem.score}/16)</h2></div>
+                <div className="scoreMe"><h2>SCORE:({this.props.scoreItem.score}/15)</h2></div>
                 <div className="card">
 
                     <a href="/QueerApp"><h1 className="heading_home">LGBTQuiz</h1></a>
