@@ -90,7 +90,7 @@
     width: 145px;
     height: 45px;
     font-weight: bold;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: serif;
     cursor: pointer;
     background: white;
 }
@@ -542,7 +542,7 @@ and (min-resolution: 192dpi) {
     background-color: green;
     margin-left: 31px;
     padding-top: 10px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: serif;
     font-weight: bold;
     border-radius: 25px;
 }
@@ -552,7 +552,7 @@ and (min-resolution: 192dpi) {
     margin-left: 130px;
     margin-right: 31px;
     padding-top: 10px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: serif;
     font-weight: bold;
     border-radius: 25px;
 }
@@ -576,7 +576,7 @@ and (min-resolution: 192dpi) {
 
 .fact-text {
     font-weight: bold;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: serif;
     font-size: 20px;
     margin:0px 39px;
     background: ivory;
@@ -593,7 +593,7 @@ and (min-resolution: 192dpi) {
 }
 
 body{
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: serif;
 }
 
 /* container */

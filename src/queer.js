@@ -146,7 +146,7 @@ export class Queer extends Component {
                 'wrongScore': 1
             },
             {
-                'fact': 'Individuals who are gender non-conforming have to go by they/them pronouns',
+                'fact': 'Individuals who are gender non-conforming usually go by they/them pronouns',
                 'factImg': pronoun,
                 'factRight': 'True! Let\'s be more inclusive',
                 'factWrong': 'It is true. Let\'s be more inclusive',
