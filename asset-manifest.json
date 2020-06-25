@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/QueerApp/static/css/main.04e465b5.chunk.css",
-    "main.js": "/QueerApp/static/js/main.ddb94856.chunk.js",
-    "main.js.map": "/QueerApp/static/js/main.ddb94856.chunk.js.map",
+    "main.css": "/QueerApp/static/css/main.af19edd2.chunk.css",
+    "main.js": "/QueerApp/static/js/main.481d1f16.chunk.js",
+    "main.js.map": "/QueerApp/static/js/main.481d1f16.chunk.js.map",
     "runtime-main.js": "/QueerApp/static/js/runtime-main.b11fbb57.js",
     "runtime-main.js.map": "/QueerApp/static/js/runtime-main.b11fbb57.js.map",
     "static/js/2.28c58640.chunk.js": "/QueerApp/static/js/2.28c58640.chunk.js",
     "static/js/2.28c58640.chunk.js.map": "/QueerApp/static/js/2.28c58640.chunk.js.map",
     "index.html": "/QueerApp/index.html",
-    "precache-manifest.a5827db338a2817cb6e2d7e01f3ae538.js": "/QueerApp/precache-manifest.a5827db338a2817cb6e2d7e01f3ae538.js",
+    "precache-manifest.5ae73b23c8dd175da42b277187d2577e.js": "/QueerApp/precache-manifest.5ae73b23c8dd175da42b277187d2577e.js",
     "service-worker.js": "/QueerApp/service-worker.js",
-    "static/css/main.04e465b5.chunk.css.map": "/QueerApp/static/css/main.04e465b5.chunk.css.map",
+    "static/css/main.af19edd2.chunk.css.map": "/QueerApp/static/css/main.af19edd2.chunk.css.map",
     "static/js/2.28c58640.chunk.js.LICENSE.txt": "/QueerApp/static/js/2.28c58640.chunk.js.LICENSE.txt",
     "static/media/377.jpg": "/QueerApp/static/media/377.4e97bc45.jpg",
     "static/media/accept.png": "/QueerApp/static/media/accept.52cf93e2.png",
@@ -36,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.b11fbb57.js",
     "static/js/2.28c58640.chunk.js",
-    "static/css/main.04e465b5.chunk.css",
-    "static/js/main.ddb94856.chunk.js"
+    "static/css/main.af19edd2.chunk.css",
+    "static/js/main.481d1f16.chunk.js"
   ]
 }
